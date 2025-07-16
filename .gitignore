@@ -1,0 +1,9 @@
+.log
+.aux
+.env
+node-modules/
+node_modules/
+.docusaurus/
+.idea/
+.vscode/
+.doc
