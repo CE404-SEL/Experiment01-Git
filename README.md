@@ -1,1 +1,1 @@
-# Experiment <experiment_number> - <title>
+# Experiment 01 - Git
