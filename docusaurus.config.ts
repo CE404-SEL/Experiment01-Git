@@ -47,10 +47,6 @@ const config = {
             image: "img/ap-social-card.jpg",
             navbar: {
                 title: "آزمایشگاه مهندسی نرم‌افزار",
-                logo: {
-                    alt: "Sharif Logo",
-                    src: "img/logo.svg",
-                },
                 items: [
                     {
                         type: "docSidebar",
