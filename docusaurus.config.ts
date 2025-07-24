@@ -11,8 +11,9 @@ const config = {
 
     organizationName: "CE404-SEL",
     projectName: "CE404-SEL.github.io",
+    deploymentBranch: 'main',
 
-    onBrokenLinks: "throw",
+    onBrokenLinks: "throw", 
     onBrokenMarkdownLinks: "warn",
 
     i18n: {
