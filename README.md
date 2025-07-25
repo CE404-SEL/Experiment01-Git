@@ -1,4 +1,132 @@
 ## آزمایش اول | گیت
+## مشخصات شعبه‌ها (Branches)‌ها و کامیت‌ها
+
+### شعبه‌ها (Branches)
+
+- **dev**  
+  شاخه توسعه پروژه که معمولاً آخرین تغییرات و ویژگی‌ها روی آن اعمال می‌شود.
+
+- **docs/solve-question-1**  
+  شاخه مستندسازی برای حل سوال شماره ۱.
+
+- **feature/Customize-404-page**  
+  اضافه کردن و شخصی‌سازی صفحه ۴۰۴ برای نمایش خطاهای عدم وجود صفحه.
+
+- **feature/add_pagesCICD**  
+  افزودن امکانات CI/CD برای صفحات پروژه (ادغام و تحویل مستمر).
+
+- **feature/add-comment-with-giscus**  
+  افزودن امکان درج کامنت با استفاده از سرویس Giscus.
+
+- **feature/add-content**  
+  شاخه‌ای برای افزودن محتوا جدید به پروژه.
+
+- **feature/change-color-theme**  
+  تغییر تم رنگی پروژه.
+
+- **feature/sidebar**  
+  اضافه کردن سایدبار (منوی کناری) به پروژه.
+
+- **fix/modify-gitignore**  
+  اصلاح فایل .gitignore برای مدیریت فایل‌های بی‌اهمیت.
+
+- **main**  
+  شاخه اصلی پروژه که نسخه پایدار در آن قرار دارد.
+
+
+
+### لیست کامل Commitها
+
+- Add source to answer questions | [4581f3a](https://github.com/CE404-SEL/Experiment01-Git/commit/4581f3a7dcc512f784b55c67e3cd7a840b67b4c9)  
+  توضیحات: منابع مورد نیاز برای پاسخ به سوالات درس به پروژه اضافه شد.
+
+- Answer to question 7 | [f092060](https://github.com/CE404-SEL/Experiment01-Git/commit/f092060fff8f903bb1621ce1361823b0784db25c)  
+  توضیحات: محتوای مربوط به پاسخ سوال ۷
+
+- Answer to question 6 | [5a642d4](https://github.com/CE404-SEL/Experiment01-Git/commit/5a642d42521703707c796efd0ebbf7bdde527244)  
+  توضیحات: پاسخ به سوال شماره ۶
+
+- Answer to question 5 | [04482dd](https://github.com/CE404-SEL/Experiment01-Git/commit/04482ddfeb34f8f06572bca6f90f3393a3483759)  
+  توضیحات: راه حل و توضیحات مربوط به سوال پنجم
+
+- Answer to question 4 | [02c4aa7](https://github.com/CE404-SEL/Experiment01-Git/commit/02c4aa7c1e109bac08c33a31cdb4da6d3c6bc018)  
+  توضیحات: مستندات و کدهای مربوط به پاسخ سوال ۴
+
+- Answer to question 3 | [3e003f7](https://github.com/CE404-SEL/Experiment01-Git/commit/3e003f7001f8f22a303cb73baad64be50fdd7ed1)  
+  توضیحات: پاسخ به سوال شماره 3
+
+- Answer to question 2 | [91d0d60](https://github.com/CE404-SEL/Experiment01-Git/commit/91d0d6092ad77650a5ca3f9fa12bdd6db8c003a1)  
+  توضیحات: پاسخ سوال شماره ۲
+
+- Merge pull request #21 from CE404-SEL/docs/solve-question-1 | [6a0e17c](https://github.com/CE404-SEL/Experiment01-Git/commit/6a0e17cc811241222e09f9e1671c87df1623a9dc)  
+  توضیحات: ادغام تغییرات شاخه مستندسازی پاسخ سوال ۱ با شاخه dev
+
+- Answer to question 1 | [ee84093](https://github.com/CE404-SEL/Experiment01-Git/commit/ee8409300acde3ec08e573dcec8492b676df2f90)  
+  توضیحات: اولین سوال با توضیحات کامل
+
+- [FIX] CI deploy | [d61d73f](https://github.com/CE404-SEL/Experiment01-Git/commit/d61d73f53c4e9f30719d617da33a88bd32146630)  
+  توضیحات: مشکل مربوط به فرایند استقرار (Deploy) CI برطرف شد تا روند انتشار خودکار پروژه بدون ایراد باشد.
+
+- Add comment feature to doc item | [53bb5d7](https://github.com/CE404-SEL/Experiment01-Git/commit/53bb5d7c7011fce267b238a0b2b37803e95188ff)  
+  توضیحات: امکان درج نظر برای بخش مستندات اضافه شد تا کاربران بتوانند سوالات یا پیشنهادات خود را ثبت کنند.
+
+- Add comment feature to blog post item | [b734e6f](https://github.com/CE404-SEL/Experiment01-Git/commit/b734e6f2e9a8276e9bf14fe22c5d1f177c67a3f4)  
+  توضیحات: قابلیت اضافه کردن کامنت برای پست‌های بلاگ فعال شد و کاربران می‌توانند نظرات خود را در هر پست وارد کنند.
+
+- Add giscus conf | [2f681a2](https://github.com/CE404-SEL/Experiment01-Git/commit/2f681a2d9f7a51ae2efc0136f1cdce262dd7ba19)  
+  توضیحات: پیکربندی سرویس Giscus برای مدیریت نظرات در پروژه انجام شد.
+
+- Add giscus dependency | [566354e](https://github.com/CE404-SEL/Experiment01-Git/commit/566354ec96da1ac469c8d4213f3f7a1fa06bb9bb)  
+  توضیحات: وابستگی‌های لازم برای فعال‌سازی کامنت‌ها با Giscus به پروژه افزوده شد.
+
+- Merge pull request #18 from CE404-SEL/feature/add_pagesCICD | [5b9d9b6](https://github.com/CE404-SEL/Experiment01-Git/commit/5b9d9b68ea8cf23964eef3c26cfc388d34ebe56b)  
+  توضیحات: ادغام تغییرات مربوط به افزودن قابلیت CI/CD برای صفحات پروژه با شاخه dev.
+
+- add pages deploy | [ed5e735](https://github.com/CE404-SEL/Experiment01-Git/commit/ed5e7356339678a92f8837f4ff987d4405b9f4c5)  
+  توضیحات: امکان انتشار خودکار صفحات پروژه بر روی GitHub Pages پیاده‌سازی شد.
+
+- add CICD | [201d884](https://github.com/CE404-SEL/Experiment01-Git/commit/201d8841a8c264b56d6fea2cf6288e9c72b40e06)  
+  توضیحات: تنظیمات اولیه CI/CD برای پروژه انجام شد تا فرایند ادغام و تحویل مستمر فراهم شود.
+
+- Merge pull request #13 from CE404-SEL/fix/modify-gitignore | [e913611](https://github.com/CE404-SEL/Experiment01-Git/commit/e913611343b21ead05c31b0e069d8eed6b22951a)  
+  توضیحات: ادغام اصلاحات فایل gitignore
+
+- Merge pull request #14 from CE404-SEL/feature/Customize-404-page | [bbe9f43](https://github.com/CE404-SEL/Experiment01-Git/commit/bbe9f431b50a099f5af4d04f91e467a4e863d00b)  
+  توضیحات: ادغام تغییرات مربوط به سفارشی‌سازی صفحه ۴۰۴ با شاخه dev برای ارتقای تجربه کاربری.
+
+- Customize 404 not found page | [d8595f5](https://github.com/CE404-SEL/Experiment01-Git/commit/d8595f57de6f2645771f462839cb9b124ca13c94)  
+  توضیحات: صفحه خطای ۴۰۴ به طور کامل شخصی‌سازی شد تا هنگام عدم وجود صفحه، پیام مناسبی نمایش داده شود.
+
+- Modify .gitignore file | [3c1bd89](https://github.com/CE404-SEL/Experiment01-Git/commit/3c1bd891c1501a3204889d3c11f508cc5abda551)  
+  توضیحات: فایل gitignore با هدف جلوگیری از ورود فایل‌های بی‌اهمیت و خروجی‌ها به مخزن اصلاح شد.
+
+- Merge pull request #12 from CE404-SEL/feature/sidebar | [7de9f70](https://github.com/CE404-SEL/Experiment01-Git/commit/7de9f70d6f81867b8145b3d224ed208df31017e5)  
+  توضیحات: ادغام قابلیت افزودن سایدبار به پروژه برای بهبود ناوبری و دسترسی کاربران.
+
+- Merge branch 'dev' into feature/sidebar | [2bf0d51](https://github.com/CE404-SEL/Experiment01-Git/commit/2bf0d513b71a8a118fa2b8ad5be309af450c684f)  
+  توضیحات: همگام‌سازی تغییرات جدید شاخه dev با شاخه feature/sidebar برای جلوگیری از تداخل کدها.
+
+- Merge pull request #11 from CE404-SEL/feature/change-color-theme | [374b9ac](https://github.com/CE404-SEL/Experiment01-Git/commit/374b9acab5e7aed968528d7865a0f0b8f3a71d96)  
+  توضیحات: ادغام تغییرات مربوط به تم رنگی جدید با شاخه dev جهت بهبود ظاهر پروژه.
+
+- feat: Config docusaurus.config.ts | [262d28b](https://github.com/CE404-SEL/Experiment01-Git/commit/262d28b716166e6cfb08777333df171f7d221ee9)  
+  توضیحات: پیکربندی اولیه فایل docusaurus.config.ts برای راه‌اندازی بهتر مستندات پروژه انجام شد.
+
+- feat: Add Quiz section | [e67ab22](https://github.com/CE404-SEL/Experiment01-Git/commit/e67ab220e32909be5b42371ebd4c35b33ea49cf2)  
+  توضیحات: بخش آزمون (Quiz) به مستندات اضافه شد.
+
+- feat: Add custom css and sidebars | [9e51161](https://github.com/CE404-SEL/Experiment01-Git/commit/9e511610e93ab187d10b6383b86c590010a648c6)  
+  توضیحات: فایل css سفارشی و ساختار سایدبارها برای نمایش بهتر مستندات به پروژه اضافه شد.
+
+- Change color theme | [3d01042](https://github.com/CE404-SEL/Experiment01-Git/commit/3d010427d9024089c979fb9b3a433b36b174d2fc)  
+  توضیحات: تم رنگی پروژه تغییر یافت تا ظاهر سایت جذاب‌تر و خواناتر شود.
+
+- [INIT] | [62ffed4](https://github.com/CE404-SEL/Experiment01-Git/commit/62ffed4a08fbe2205dccf5d5cda2c8f9987864a6)  
+  توضیحات: شروع اولیه پروژه با ایجاد ساختار اصلی و افزودن فایل‌های پایه.
+
+- Initial commit | [c77e9ca](https://github.com/CE404-SEL/Experiment01-Git/commit/c77e9ca360b8a2105a2b72ae4551fa2fb503f37c)  
+  توضیحات: اولین کامیت پروژه شامل ایجاد مخزن و افزودن فایل‌های ابتدایی مورد نیاز.
+---
 
 ## پاسخ سوالات
 
