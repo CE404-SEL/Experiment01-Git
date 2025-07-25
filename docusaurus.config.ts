@@ -11,7 +11,7 @@ const config = {
 
     organizationName: "CE404-SEL",
     projectName: "CE404-SEL.github.io",
-    deploymentBranch: 'main',
+    deploymentBranch: 'feature/add_pagesCICD',
 
     onBrokenLinks: "throw", 
     onBrokenMarkdownLinks: "warn",
@@ -52,13 +52,13 @@ const config = {
                     {
                         type: "docSidebar",
                         sidebarId: "courseSidebar",
-                        label: "محتوای درس",
+                        label: "اطلاعات درس",
                         position: "left",
                     },
                     {
                         type: "docSidebar",
                         sidebarId: "tutorialsSidebar",
-                        label: "کوییزها",
+                        label: "محتوای درس",
                         position: "left",
                     },
                 ],

@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'اطلاعات درس',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        این صفحه شامل قوانین گزارش‌نویسی، نحوه نمره‌دهی آزمایش‌ها، منابع آموزشی برای Git و SOLID و اطلاعات تماس با دستیاران آموزشی است.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'کد آزمایش های مختلف',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        دسترسی ساده به ریپوی گیت‌هاب آزمایش‌های مختلف به شکل ساده
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'محتوای درس',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        ویدیوها و فایل‌های آموزشی برای هر یک از فصل‌های آموزشی آزمایشگاه مهندسی نرم‌افزار
       </>
     ),
   },
