@@ -27,6 +27,9 @@
 - **feature/sidebar**  
   اضافه کردن سایدبار (منوی کناری) به پروژه.
 
+- **feature/localsearch**  
+  اضافه کردن قابلیت سرچ سمت کلاینت به پروژه.
+
 - **fix/modify-gitignore**  
   اصلاح فایل .gitignore برای مدیریت فایل‌های بی‌اهمیت.
 
@@ -36,6 +39,9 @@
 
 
 ### لیست کامل Commitها
+
+- Add Algolia Search Plugin | [6d1d928](https://github.com/CE404-SEL/Experiment01-Git/commit/6d1d9284c58c220c52df510f3ab3981cef6624f6)  
+  توضیحات: منابع مورد نیاز برای پاسخ به سوالات درس به پروژه اضافه شد.
 
 - Add source to answer questions | [4581f3a](https://github.com/CE404-SEL/Experiment01-Git/commit/4581f3a7dcc512f784b55c67e3cd7a840b67b4c9)  
   توضیحات: منابع مورد نیاز برای پاسخ به سوالات درس به پروژه اضافه شد.
