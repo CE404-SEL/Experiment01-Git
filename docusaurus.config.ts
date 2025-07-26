@@ -45,7 +45,7 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
-            image: "img/ap-social-card.jpg",
+            image: "img/social-card.jpg",
             navbar: {
                 title: "آزمایشگاه مهندسی نرم‌افزار",
                 items: [
@@ -68,6 +68,14 @@ const config = {
                 darkTheme: prismThemes.dracula,
                 additionalLanguages: ["makefile", "bash", "cmake"],
             },
+            algolia: {
+                appId: 'MD5S8TO3WJ',
+                apiKey: '1a6a51a5fb823b5a54735496f2562a50',
+                indexName: 'CE404',
+                contextualSearch: false,
+                searchParameters: {},
+                searchPagePath: 'search',
+            }
         }),
 };
 

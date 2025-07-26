@@ -1,0 +1,27 @@
+.heroBanner {
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+}
+
+html[data-theme='light'] .logo {
+    content: url('/img/logo-light.svg');
+}
+
+html[data-theme='dark'] .logo {
+    content: url('/img/logo-dark.svg');
+}
+
+
+
+@media screen and (max-width: 996px) {
+    .heroBanner {
+        padding: 2rem;
+    }
+}
