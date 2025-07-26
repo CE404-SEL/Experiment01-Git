@@ -1,11 +1,32 @@
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+    height: 120px;
+    width: 120px;
+}
+
+.featureBox {
+    padding: 1rem;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.featureBox:hover {
+    box-shadow: 0 4px 15px var(--ifm-color-primary);
+    transform: translateY(-3px);
+}
+
+.featureLink {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.featureLink:focus {
+    outline: none;
 }
