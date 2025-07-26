@@ -13,7 +13,7 @@ const config = {
     projectName: "CE404-SEL.github.io",
     deploymentBranch: 'feature/add_pagesCICD',
 
-    onBrokenLinks: "throw", 
+    onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
 
     i18n: {
@@ -32,7 +32,7 @@ const config = {
             "classic",
             {
                 docs: {
-                    sidebarPath: "./sidebars.js",
+                    sidebarPath: "./sidebars.ts",
                     editUrl: "https://github.com/CE404-SEL/Experiment01-Git/blob/main/",
                 },
                 theme: {
@@ -57,16 +57,17 @@ const config = {
                     },
                     {
                         type: "docSidebar",
-                        sidebarId: "tutorialsSidebar",
+                        sidebarId: "materialsSidebar",
                         label: "محتوای درس",
                         position: "left",
                     },
+                    {
+                        type: "docSidebar",
+                        sidebarId: "quizesSidebar",
+                        label: "کوییزهای درس",
+                        position: "left",
+                    },
                 ],
-            },
-            prism: {
-                theme: prismThemes.github,
-                darkTheme: prismThemes.dracula,
-                additionalLanguages: ["makefile", "bash", "cmake"],
             },
             algolia: {
                 appId: 'MD5S8TO3WJ',
@@ -75,6 +76,11 @@ const config = {
                 contextualSearch: false,
                 searchParameters: {},
                 searchPagePath: 'search',
+            },
+            prism: {
+                theme: prismThemes.github,
+                darkTheme: prismThemes.dracula,
+                additionalLanguages: ["makefile", "bash", "cmake"],
             }
         }),
 };

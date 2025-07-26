@@ -14,14 +14,14 @@ const featureList = [
         title: "کد آزمایش‌های مختلف",
         imageSrc: "/img/feat2.svg",
         description: "دسترسی ساده به ریپوی گیت‌هاب آزمایش‌های مختلف به شکل ساده",
-        link: "/blog",
+        link: "/docs/materials/1",
     },
     {
         title: "محتوای درس",
         imageSrc: "/img/feat3.svg",
         description:
             "ویدیوها و فایل‌های آموزشی برای هر یک از آزمایش‌های آزمایشگاه مهندسی نرم‌افزار",
-        link: "/docs/course/course-info",
+        link: "/docs/quizes/1",
     },
 ];
 
